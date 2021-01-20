@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li><button id="rock" class="searchbutton">Rock</button></li>
+                    <li><button id="paper" class="searchbutton" >Paper</button></li>
+                    <li><button id="scissors" class="searchbutton" >Scissors</button></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <!-- Who Chose -->
+    <div class="navbar">
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li id="presults"class="results">you chose: | computer chose:</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Reset button -->
+    <div class="navbar">
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li><button id="reset" class="searchbutton reset">RESET</button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Scores -->
+    <div class="navbar">
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li class="results">PLAYER SCORE</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li id ="ps"class="results">0</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li class="results">COMPUTER SCORE</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li id ="cs"class="results">0</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    
+
+</body>
+<audio data-audio="rock" src="rock.wav"></audio>
+<audio data-audio="paper" src="paper.wav"></audio>
+<audio data-audio="scissors" src="scissors.wav"></audio>
+
+<script src="javascript.js"></script>
+</html>

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(43, 43, 43);
+    font-family:'Lato',sans-serif;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+/**/
+h1,
+h2{
+    font-size:15px;
+    line-height:1.2;
+    margin: 10px 0;
+}
+p{
+    margin: 10px 0;
+}
+img{
+    width: 100%;
+}
+/**/
+
+
+
+.navbar{
+    height: 110px;
+}
+
+.navbar ul {
+    display:flex;
+}
+
+/**/
+.navbar a{
+    color:black;
+    padding:10px;
+    margin:0 40px;
+}
+
+.navbar a:hover{
+    border-bottom:2px rgb(102, 181, 187) solid;
+}
+.navbar .flex{
+    justify-content:center;
+}
+
+.container{
+    
+    margin: 0 auto;
+    overflow:auto;
+    padding:0 20px;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+.navbar a {
+    background-color:white;
+    border-radius:15%;
+    color:black; 
+    font-weight:bolder;
+    font-size:40px;
+}
+.searchbutton{
+    padding:10px;
+    border:none;
+    text-decoration: none;
+    margin: 0 0 0px 20px;
+    margin-top:2%;
+    outline:none;
+    background-color: white;
+    font-size:40px;
+    border-radius:15%;
+}
+.searchbutton:hover{background-color: rgb(199, 199, 199);}
+
+.results{
+    border-radius:15%;
+    color:rgb(255, 255, 255); 
+    font-weight:bolder;
+    font-size:20px;
+}
+.reset{
+    font-size:20px;
+    margin: 0 0 0 0;
+}
